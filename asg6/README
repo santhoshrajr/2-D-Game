@@ -1,0 +1,39 @@
+Name:  Vrunal Mhatre
+Clemson Email Address: vmhatre@clemson.edu	
+Course number:  6160
+
+Project no: 6
+
+Project description: Charizard vs Vegeta
+Project Parnter: Santhosh Raj Ravirala
+Contribution: Worked on AI with observer pattern for Dragon Balls, Had to rework the intial scaled sprite script
+ as it just refuse to work for with Vegeta as a subject sprite. HUD Updates for dragon Balls count and win/ lose
+condition display. Collision Detection for SmartSprites(Dragon Balls) and SubjectSprites(Vegeta). Explosions for 
+
+Objective:
+	Object Pooling: To ensure bullets are reused using freeList and bulletList
+    AI: Dragon Balls switch states based on Vegeta's postion and try to evade from vegeta. Two modes: Normal and Evade
+    Bullets: Press button 'E' to shoot Plasma from Vegeta.
+             Press button 'Right_Ctrl' to shoot Fireball from Charlizard.
+	Explosions: Collision with Fireball emitted from Charlizard explodes Vegeta.
+    Collisions: Charizard <--> Vegeta (Fireball and Plasma shootings)		        
+    Reset:  Use Button 'R' to Reset the game
+    God Mode: Use v for Vegeta God mode and c for Charizard.
+    Sound and Music: Reused audio clips from class repo provided by Dr. Malloy 
+	Projectile: Charizard thows Fireball in Projectile motion
+    
+
+    Controls : Vegeta:
+                Navigation : asdw
+                Shooting : E  
+                God mode: v
+               Charizard
+                Navigation : arrow keys
+                Shooting : R_Ctrl
+                God mode: c
+
+Sources:
+Vegeta: brosif.devianart.com/Vegeta-Namek-Saga--sprite-Sheet-328792496
+FrameFactory and Frame class: OODesign framework. Prof. Malloy website.	
+Problems with this project:
+MultiSprite Explosions. 
